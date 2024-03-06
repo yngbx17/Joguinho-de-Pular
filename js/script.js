@@ -1,6 +1,6 @@
 const alucard = document.querySelector('.alucard');
 const pipe = document.querySelector('.pipe');
-let score = 0;
+
 
 const jump = () => {
     alucard.classList.add('jump');
@@ -31,10 +31,7 @@ if (pipePosition <= 76 && pipePosition > 0 && alucardPosition < 76 ){
    alucard.style.marginRight = '-20px'
    clearInterval(loop)
 }
-score++;
-            updateScore();
+
 } , 10);
-const updateScore = () => {
-    document.getElementById("score").innerText = `Score: ${score}`;
 }
 document.addEventListener('keydown', jump)
