@@ -1,1 +1,1 @@
-Jogo projeto no estilo Jumpman utilizando HTML|CSS|JavaScript
+Jogo projeto no estilo Jumpman utilizando HTML | CSS | JavaScript 
